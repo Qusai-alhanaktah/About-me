@@ -2,11 +2,12 @@
 var user = prompt('type your name please')
 alert('welcom to my page: ' + user )
 
+alert('you have to answer these qustion befor you access my webpage')
 
 
-var yourAnswer1 = prompt('is the sky with blue color?')
-var yourAnswer1 = yourAnswer1.toUpperCase();
-switch(yourAnswer1) {
+var colorAnswer = prompt('is the sky with blue color?')
+var colorAnswer = colorAnswer.toUpperCase();
+switch(colorAnswer) {
     case'YES':
     alert('correct');
     break;
@@ -22,12 +23,12 @@ switch(yourAnswer1) {
     default :
     alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no')
     break;
+    //console.log('this is true')
 }
-//console.log('this is true')
 
-var yourAnswer2 = prompt('can the bird fly ?')
-var yourAnswer2 = yourAnswer2.toUpperCase();
-switch(yourAnswer2) {
+var fly = prompt('can the bird fly ?')
+var fly = fly.toUpperCase();
+switch(fly) {
     case'YES':
     alert('correct');
     break;
@@ -43,10 +44,12 @@ switch(yourAnswer2) {
     default :
     alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no')
     break;
+    //console.log('cheack please')
 }
-var yourAnswer3 = prompt('the water is colorless?')
-var yourAnswer3 = yourAnswer3.toUpperCase();
-switch(yourAnswer3) {
+
+var waterColor = prompt('the water is colorless?')
+var waterColor = waterColor.toUpperCase();
+switch(waterColor) {
     case'YES':
     alert('correct');
     break;
@@ -62,10 +65,12 @@ switch(yourAnswer3) {
     default :
     alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no')
     break;
+    //console.log('is it correct')
 }
-var yourAnswer4 = prompt('is the earth sphericity?')
-var yourAnswer4 = yourAnswer4.toUpperCase();
-switch(yourAnswer4) {
+
+var sphericity = prompt('is the earth sphericity?')
+var sphericity = sphericity.toUpperCase();
+switch(sphericity) {
     case'YES':
     alert('correct');
     break;
@@ -81,10 +86,12 @@ switch(yourAnswer4) {
     default :
     alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no')
     break;
+    //console.log('thanks')
 }
-var yourAnswer5 = prompt('is the sun shine in the night?')
-var yourAnswer5 = yourAnswer5.toUpperCase();
-switch(yourAnswer5) {
+
+var shine = prompt('is the sun shine in the night?')
+var shine = shine.toUpperCase();
+switch(shine) {
     case'YES':
     alert('incorrect');
     break;
@@ -100,6 +107,7 @@ switch(yourAnswer5) {
     default :
     alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no')
     break;
+    //console.log('final help here')
 }
 
 alert('welcom to my page again and i with you have a fun time with me: ' + user)
