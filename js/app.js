@@ -3,25 +3,32 @@ var user = prompt('type your name please')
 alert('welcom to my page: ' + user )
 
 alert('you have to answer these qustion befor you access my webpage')
-
+var mark = 0
 
 var colorAnswer = prompt('is the sky with blue color?')
 var colorAnswer = colorAnswer.toUpperCase();
 switch(colorAnswer) {
     case'YES':
     alert('correct');
+    mark = mark + 1;
+    alert('you got: '+mark);
     break;
     case'Y':
     alert('correct');
+    mark = mark + 1;
+    alert('you got: '+mark);
     break;
     case'NO':
     alert('incorrect');
+    alert('you got: '+mark);
     break;
     case'N':
+    alert('you got: '+mark);
     alert('incorrect');
     break;
     default :
     alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no')
+    alert('you got: '+mark);
     break;
     //console.log('this is true')
 }
@@ -31,18 +38,25 @@ var fly = fly.toUpperCase();
 switch(fly) {
     case'YES':
     alert('correct');
+    mark = mark + 1;
+    alert('you got: '+mark);
     break;
     case'Y':
     alert('correct');
-    break;
+    mark = mark + 1;
+    alert('you got: '+mark);
+     break;
     case'NO':
     alert('incorrect');
+    alert('you got: '+mark);
     break;
     case'N':
     alert('incorrect');
+    alert('you got: '+mark);
     break;
     default :
-    alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no')
+    alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no');
+    alert('you got: '+mark);
     break;
     //console.log('cheack please')
 }
@@ -52,18 +66,25 @@ var waterColor = waterColor.toUpperCase();
 switch(waterColor) {
     case'YES':
     alert('correct');
+    mark = mark + 1;
+    alert('you got: '+mark);
     break;
     case'Y':
     alert('correct');
+    mark = mark + 1;
+    alert('you got: '+mark);
     break;
     case'NO':
     alert('incorrect');
+    alert('you got: '+mark);
     break;
     case'N':
     alert('incorrect');
+    alert('you got: '+mark);
     break;
     default :
-    alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no')
+    alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no');
+    alert('you got: '+mark);
     break;
     //console.log('is it correct')
 }
@@ -73,18 +94,25 @@ var sphericity = sphericity.toUpperCase();
 switch(sphericity) {
     case'YES':
     alert('correct');
+    mark = mark + 1;
+    alert('you got: '+mark);
     break;
     case'Y':
     alert('correct');
+    mark = mark + 1;
+    alert('you got: '+mark);
     break;
     case'NO':
     alert('incorrect');
+    alert('you got: '+mark);
     break;
     case'N':
     alert('incorrect');
+    alert('you got: '+mark);
     break;
     default :
-    alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no')
+    alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no');
+    alert('you got: '+mark);
     break;
     //console.log('thanks')
 }
@@ -94,23 +122,138 @@ var shine = shine.toUpperCase();
 switch(shine) {
     case'YES':
     alert('incorrect');
+    alert('you got: '+mark);
     break;
     case'Y':
     alert('incorrect');
+    alert('you got: '+mark);
     break;
     case'NO':
     alert('correct');
+    mark = mark + 1;
+    alert('you got: '+mark);
     break;
     case'N':
     alert('correct');
+    mark = mark + 1;
+    alert('you got: '+mark);
     break;
     default :
-    alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no')
+    alert('yor are wrong, this is yes/no qusetion, you have to answer with yes/no');
+    alert('you got: '+mark);
     break;
     //console.log('final help here')
 }
 
 alert('welcom to my page again and i with you have a fun time with me: ' + user)
+
+
+
+
+
+
+alert('now the hardest qustion, did you ready?')
+var number = prompt('giss my number between 0 to 10 if you can!')
+
+for (var i = 2; i <= 4;) {
+    
+    if (number < 7) {
+        alert('too low');
+        var number = prompt('giss my number between 0 to 10 again, carefully you have only 4 tries');
+
+        i = i + 1;
+    }
+    else if (number > 7) {
+
+        alert('too high');
+        var number = prompt('giss my number between 0 to 10 again, carefully you have only 4 tries');
+        i = i + 1;
+    }
+    else if (number == 7) {
+
+        alert('correct');
+        i = i + 6;
+        mark = mark + 1;
+    alert('you got: '+mark);
+    }
+}
+if (i == 5) {
+    alert('sorry. you try all your attempt, the answer is: 7');
+    document.write('<h3>'+'the answer is: 7'+'</h3>');
+        //console.log('cheack the loop')
+
+
+}
+
+
+
+
+
+
+var sevenWonders = ["great wall of china", "petra", "taj mahal", "machu picchu", "chichen itza", "colosseum","christ the redeemer statue"];
+var place = prompt('giss One of the Seven Wonders of the World if you can!');
+
+for (var x = 2; x <= 6;) {
+    
+    switch(place.toLowerCase()) {
+        case sevenWonders[0]:
+        alert('correct');
+            x = x + 7;
+            mark = mark + 1;
+    alert('you got: '+mark);
+            break;
+            case sevenWonders[1]:
+            alert('correct');
+            x = x + 7;
+            mark = mark + 1;
+    alert('you got: '+mark);
+            break;
+            case sevenWonders[2]:
+            alert('correct');
+            x = x + 7;
+            mark = mark + 1;
+    alert('you got: '+mark);
+            break;
+            case sevenWonders[3]:
+            alert('correct');
+            x = x + 7;
+            mark = mark + 1;
+    alert('you got: '+mark);
+            break;
+            case sevenWonders[4]:
+            alert('correct');
+            x = x + 7;
+            mark = mark + 1;
+    alert('you got: '+mark);
+            break;
+            case sevenWonders[5]:
+            alert('correct');
+            x = x + 7;
+            mark = mark + 1;
+    alert('you got: '+mark);
+            break;
+            case sevenWonders[6]:
+            alert('correct');
+            x = x + 7;
+            mark = mark + 1;
+    alert('you got: '+mark);
+            default :
+            place = prompt('type one of Seven Wonders of the World, not any thing else');
+            x = x + 1;
+        }
+       //console.log('cheack the array')
+
+}
+if (x <= 7) {
+    alert('sorry. you try all your attempt, the answer is one of these '+'great wall of china", "petra", "taj mahal", "machu picchu", "chichen itza", "colosseum","christ the redeemer statue');
+    alert('you got: '+mark);
+    document.write('<h3>'+'the answer is one of these:'+'</h3>'+'<ul>'+'<li>'+ 'great wall of china' + '</li>'+'<li>'+ 'petra' + '</li>'+'<li>'+ 'taj mahal' + '</li>'+'<li>'+ 'machu picchu' + '</li>'+'<li>'+ 'colosseum' + '</li>'+'<li>'+ 'chichen itza' + '</li>'+'<li>'+ 'christ the redeemer statue' + '</li>'+'</ul>');
+
+}  
+
+
+document.write('<h2>'+'total mark = ' + mark + '/7' + '</h2>' );
+
 
 
 
