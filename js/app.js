@@ -155,35 +155,38 @@ alert('welcom to my page again and i with you have a fun time with me: ' + user)
 alert('now the hardest qustion, did you ready?')
 var number = prompt('giss my number between 0 to 10 if you can!')
 
-for (var i = 2; i <= 4;) {
+for (var i = 1; i <= 3; i++) {
     
     if (number < 7) {
         alert('too low');
-        var number = prompt('giss my number between 0 to 10 again, carefully you have only 4 tries');
+         number = prompt('giss my number between 0 to 10 again, carefully you have only 4 tries');
 
-        i = i + 1;
     }
     else if (number > 7) {
 
         alert('too high');
-        var number = prompt('giss my number between 0 to 10 again, carefully you have only 4 tries');
-        i = i + 1;
+         number = prompt('giss my number between 0 to 10 again, carefully you have only 4 tries');
     }
     else if (number == 7) {
 
         alert('correct');
-        i = i + 6;
+        i =  6;
         mark = mark + 1;
     alert('you got: '+mark);
     }
 }
-if (i == 5) {
+if (i == 4 && number == 7){
+    alert('correct');
+    mark = mark + 1;
+    alert('you got: '+mark);
+
+} else if(i == 4 && number != 7){
     alert('sorry. you try all your attempt, the answer is: 7');
     document.write('<h3>'+'the answer is: 7'+'</h3>');
         //console.log('cheack the loop')
 
 
-}
+ }
 
 
 
@@ -193,7 +196,7 @@ if (i == 5) {
 var sevenWonders = ["great wall of china", "petra", "taj mahal", "machu picchu", "chichen itza", "colosseum","christ the redeemer statue"];
 var place = prompt('giss One of the Seven Wonders of the World if you can!');
 
-for (var x = 2; x <= 6;) {
+for (var x = 1; x <= 5;) {
     
     switch(place.toLowerCase()) {
         case sevenWonders[0]:
@@ -244,7 +247,11 @@ for (var x = 2; x <= 6;) {
        //console.log('cheack the array')
 
 }
-if (x <= 7) {
+if (x == 6 && (place == sevenWonders[0]||place ==sevenWonders[1]||place == sevenWonders[2]||place == sevenWonders[3]||place == sevenWonders[4]||place == sevenWonders[5]||place == sevenWonders[6])){
+    alert('correct');
+    mark = mark + 1;
+alert('you got: '+mark);
+} else{
     alert('sorry. you try all your attempt, the answer is one of these '+'great wall of china", "petra", "taj mahal", "machu picchu", "chichen itza", "colosseum","christ the redeemer statue');
     alert('you got: '+mark);
     document.write('<h3>'+'the answer is one of these:'+'</h3>'+'<ul>'+'<li>'+ 'great wall of china' + '</li>'+'<li>'+ 'petra' + '</li>'+'<li>'+ 'taj mahal' + '</li>'+'<li>'+ 'machu picchu' + '</li>'+'<li>'+ 'colosseum' + '</li>'+'<li>'+ 'chichen itza' + '</li>'+'<li>'+ 'christ the redeemer statue' + '</li>'+'</ul>');
