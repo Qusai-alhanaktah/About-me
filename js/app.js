@@ -5,6 +5,7 @@ alert('welcom to my page: ' + user )
 alert('you have to answer these qustion befor you access my webpage')
 var mark = 0
 
+function colorName(){
 var colorAnswer = prompt('is the sky with blue color?')
 var colorAnswer = colorAnswer.toUpperCase();
 switch(colorAnswer) {
@@ -32,7 +33,9 @@ switch(colorAnswer) {
     break;
     //console.log('this is true')
 }
-
+}
+colorName();
+function fly(){
 var fly = prompt('can the bird fly ?')
 var fly = fly.toUpperCase();
 switch(fly) {
@@ -60,7 +63,9 @@ switch(fly) {
     break;
     //console.log('cheack please')
 }
-
+}
+fly();
+function waterColor(){
 var waterColor = prompt('the water is colorless?')
 var waterColor = waterColor.toUpperCase();
 switch(waterColor) {
@@ -88,7 +93,9 @@ switch(waterColor) {
     break;
     //console.log('is it correct')
 }
-
+}
+waterColor();
+function sphericity(){
 var sphericity = prompt('is the earth sphericity?')
 var sphericity = sphericity.toUpperCase();
 switch(sphericity) {
@@ -116,7 +123,9 @@ switch(sphericity) {
     break;
     //console.log('thanks')
 }
-
+}
+sphericity();
+function shine(){
 var shine = prompt('is the sun shine in the night?')
 var shine = shine.toUpperCase();
 switch(shine) {
@@ -144,7 +153,8 @@ switch(shine) {
     break;
     //console.log('final help here')
 }
-
+}
+shine();
 alert('welcom to my page again and i with you have a fun time with me: ' + user)
 
 
@@ -153,6 +163,7 @@ alert('welcom to my page again and i with you have a fun time with me: ' + user)
 
 
 alert('now the hardest qustion, did you ready?')
+function number(){
 var number = prompt('giss my number between 0 to 10 if you can!,  carefully you have only 4 tries')
 
 for (var i = 1; i <= 3; i++) {
@@ -187,12 +198,13 @@ if (i == 4 && number == 7){
 
 
  }
+}
+number();
 
 
 
 
-
-
+function sevenWonders(){
 var sevenWonders = ["great wall of china", "petra", "taj mahal", "machu picchu", "chichen itza", "colosseum","christ the redeemer statue"];
 var place = prompt('giss One of the Seven Wonders of the World if you can!');
 
@@ -257,8 +269,8 @@ alert('you got: '+mark);
     document.write('<h3>'+'the answer is one of these:'+'</h3>'+'<ul>'+'<li>'+ 'great wall of china' + '</li>'+'<li>'+ 'petra' + '</li>'+'<li>'+ 'taj mahal' + '</li>'+'<li>'+ 'machu picchu' + '</li>'+'<li>'+ 'colosseum' + '</li>'+'<li>'+ 'chichen itza' + '</li>'+'<li>'+ 'christ the redeemer statue' + '</li>'+'</ul>');
 
 }  
-
-
+}
+sevenWonders();
 document.write('<h2>'+'total mark = ' + mark + '/7' + '</h2>' );
 
 
