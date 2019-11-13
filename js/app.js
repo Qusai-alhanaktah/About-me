@@ -153,19 +153,19 @@ alert('welcom to my page again and i with you have a fun time with me: ' + user)
 
 
 alert('now the hardest qustion, did you ready?')
-var number = prompt('giss my number between 0 to 10 if you can!')
+var number = prompt('giss my number between 0 to 10 if you can!,  carefully you have only 4 tries')
 
 for (var i = 1; i <= 3; i++) {
     
     if (number < 7) {
         alert('too low');
-         number = prompt('giss my number between 0 to 10 again, carefully you have only 4 tries');
+         number = prompt('giss my number between 0 to 10 again');
 
     }
     else if (number > 7) {
 
         alert('too high');
-         number = prompt('giss my number between 0 to 10 again, carefully you have only 4 tries');
+         number = prompt('giss my number between 0 to 10 again');
     }
     else if (number == 7) {
 

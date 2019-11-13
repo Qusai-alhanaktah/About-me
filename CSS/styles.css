@@ -6,11 +6,26 @@ h2{
     color: blueviolet;
     margin-left: 20px;
     text-align: center;
+    font-size: 30px;
 }
 ol li{
     color: chocolate;
+    padding: 9px;
+    list-style-type: decimal;
+    text-align: center;
     
 }
-ul li{
+main ul li{
     color: darkblue;
+    font-size: 25px;
+    padding: 15px;
+}
+footer ul li{
+    font-size: 15px;
+    padding: 10px;  
+}
+footer h3{
+    font-size: 20px;
+    padding: 20px;
+     
 }
