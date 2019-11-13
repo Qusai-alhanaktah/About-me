@@ -257,7 +257,7 @@ if (x == 6 && (place == sevenWonders[0] || place == sevenWonders[1] || place == 
     document.write('<h3>' + 'the answer is one of these:' + '</h3>' + '<ul>' + '<li>' + 'great wall of china' + '</li>' + '<li>' + 'petra' + '</li>' + '<li>' + 'taj mahal' + '</li>' + '<li>' + 'machu picchu' + '</li>' + '<li>' + 'colosseum' + '</li>' + '<li>' + 'chichen itza' + '</li>' + '<li>' + 'christ the redeemer statue' + '</li>' + '</ul>');
 
 }
-
+// console.log(check the if statement)
 
 document.write('<h2>' + 'total mark = ' + mark + '/7' + '</h2>');
 
