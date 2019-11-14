@@ -186,36 +186,27 @@ for (var i = 1; i <= 3; i++) {
         alert('you got: ' + mark);
     }
 }
-if (i == 4 && number == 7) {
-    alert('correct');
-    mark = mark + 1;
-    alert('you got: ' + mark);
+    if (i == 4 && number == 7) {
+        alert('correct');
+        mark = mark + 1;
+        alert('you got: ' + mark);
+        
+    } else if (i == 4 && number != 7) {
+        alert('sorry. you try all your attempt, the answer is: 7');
+        document.write('<h3>' + 'the answer is: 7' + '</h3>');
+        //console.log('cheack the loop')
+    }
 
-} else if (i == 4 && number != 7) {
-    alert('sorry. you try all your attempt, the answer is: 7');
-    document.write('<h3>' + 'the answer is: 7' + '</h3>');
-    //console.log('cheack the loop')
-
-
-<<<<<<< HEAD
-}
-=======
- }
 }
 number();
->>>>>>> ec5b33928ce746e29a98fb65eedd4dedf8533b7c
 
 
 
 
-<<<<<<< HEAD
 
 
-var sevenWonders = ["great wall of china", "petra", "taj mahal", "machu picchu", "chichen itza", "colosseum", "christ the redeemer statue"];
-=======
 function sevenWonders(){
 var sevenWonders = ["great wall of china", "petra", "taj mahal", "machu picchu", "chichen itza", "colosseum","christ the redeemer statue"];
->>>>>>> ec5b33928ce746e29a98fb65eedd4dedf8533b7c
 var place = prompt('giss One of the Seven Wonders of the World if you can!');
 
 for (var x = 1; x <= 5;) {
@@ -272,30 +263,22 @@ for (var x = 1; x <= 5;) {
 if (x == 6 && (place == sevenWonders[0] || place == sevenWonders[1] || place == sevenWonders[2] || place == sevenWonders[3] || place == sevenWonders[4] || place == sevenWonders[5] || place == sevenWonders[6])) {
     alert('correct');
     mark = mark + 1;
-<<<<<<< HEAD
-    alert('you got: ' + mark);
+    alert('you got: '+mark);
+
+
 } else if ((x == 6 && !(place == sevenWonders[0] || place == sevenWonders[1] || place == sevenWonders[2] || place == sevenWonders[3] || place == sevenWonders[4] || place == sevenWonders[5] || place == sevenWonders[6]))) {
     alert('sorry. you try all your attempt, the answer is one of these ' + 'great wall of china", "petra", "taj mahal", "machu picchu", "chichen itza", "colosseum","christ the redeemer statue');
-    alert('you got: ' + mark);
     document.write('<h3>' + 'the answer is one of these:' + '</h3>' + '<ul>' + '<li>' + 'great wall of china' + '</li>' + '<li>' + 'petra' + '</li>' + '<li>' + 'taj mahal' + '</li>' + '<li>' + 'machu picchu' + '</li>' + '<li>' + 'colosseum' + '</li>' + '<li>' + 'chichen itza' + '</li>' + '<li>' + 'christ the redeemer statue' + '</li>' + '</ul>');
+    alert('you got: '+mark);
 
 }
+
 // console.log(check the if statement)
 
-document.write('<h2>' + 'total mark = ' + mark + '/7' + '</h2>');
-=======
-alert('you got: '+mark);
-} else{
-    alert('sorry. you try all your attempt, the answer is one of these '+'great wall of china", "petra", "taj mahal", "machu picchu", "chichen itza", "colosseum","christ the redeemer statue');
-    alert('you got: '+mark);
-    document.write('<h3>'+'the answer is one of these:'+'</h3>'+'<ul>'+'<li>'+ 'great wall of china' + '</li>'+'<li>'+ 'petra' + '</li>'+'<li>'+ 'taj mahal' + '</li>'+'<li>'+ 'machu picchu' + '</li>'+'<li>'+ 'colosseum' + '</li>'+'<li>'+ 'chichen itza' + '</li>'+'<li>'+ 'christ the redeemer statue' + '</li>'+'</ul>');
 
-}  
-}
+} 
+
 sevenWonders();
 document.write('<h2>'+'total mark = ' + mark + '/7' + '</h2>' );
->>>>>>> ec5b33928ce746e29a98fb65eedd4dedf8533b7c
-
-
 
 
