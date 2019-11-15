@@ -1,31 +1,72 @@
-main{
-    background-color: aquamarine;
+body{
+  
+    @import url('https://fonts.googleapis.com/css?family=Calistoga|Sacramento|Wallpoet&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap');
 }
+body{
+    background-color: khaki;}
+    
 
-h2{
-    color: blueviolet;
-    margin-left: 20px;
+header h1{
     text-align: center;
     font-size: 30px;
+    padding: 20px;
+    font-family: 'Wallpoet', cursive;
 }
-ol li{
-    color: chocolate;
-    padding: 9px;
-    list-style-type: decimal;
-    text-align: center;
-    
+main h1{
+    margin: 40px;
+    font-size: 200%;
+    font-family:'Rock Salt', cursive;
 }
 main ul li{
     color: darkblue;
-    font-size: 25px;
+    font-size: 20px;
     padding: 15px;
+    font-family: 'Mountains of Christmas', cursive;
 }
+h2{
+    color: rgb(80, 5, 47);
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 20px;
+}
+ol li{
+    color:rgb(138, 13, 84);
+    padding: 9px;
+    list-style-type: decimal;
+    text-align: left;
+    margin-left: 80px ;
+    font-family: 'Bad Script', cursive;
+}
+img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    
+}
+
+
 footer ul li{
-    font-size: 15px;
+    font-size: 25px;
     padding: 10px;  
+    margin-left: 30px;
+    list-style-type: lower-greek;
+    color: #399;
+    text-align: left;
 }
 footer h3{
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px;
-     
+    color: seagreen;
+    text-align: left;
+    
+}
+footer h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
 }
